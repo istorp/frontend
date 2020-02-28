@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style2.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    
+    <title>Anders Djerf 3.0</title>
+</head>
+<body>
+    
+    
+        
+    <nav>
+        <div class="logo">
+            <h1>Anders Djerf</h1>
+        </div>
+        <ul class="nav-links">
+            <li > <a data-div="hem-sida" id="hem" href="index.html" >Hem</a></li>
+            <li><a data-div="häst-sida" id="hästarna" href="hastar.html">Hästarna</a></li>
+            <li><a data-div="skol-sida" id="skolan" href="city.html">Land data</a></li>
+            <li> <a data-div="väder-sida" id="väder" href="weather.html">Väder</a></li>
+            <li><a data-div="Länkar-sida" id="Länkar" href="links.html">Länkar</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+    
+    <div class="galleryContainer">
+        <div class="slideCntainer">
+            <div id="playPauseBtn" onclick="playPauseSlide()"></div>
+            <div class="leftArrow" onclick="plusSlides (-1)"><span class="arrow arrowLeft"></span></div>
+            <div class="rightArrow" onclick="plusSlides (1)"><span class="arrow arrowRight"></span></div>
+            <div class="cationHolder" ><p class="captionText"></p></div>
+            <div class="imagesholder">
+                <img src="./images/bild3.jpg" alt="">
+                <p class="captionText">Jag hoppar fint</p>
+            </div>
+            <div class="imagesholder">
+                <img src="./images/bild4.jpg" alt="">
+                <p class="captionText">Här kom ju jag</p>
+            </div>
+            <div class="imagesholder">
+                <img src="./images/bild12.jpeg" alt="">
+                <p class="captionText">sento och jag</p>
+            </div>
+            <div class="imagesholder">
+                <img src="./images/bild5.JPG" alt="">
+                <p class="captionText">HannaH</p>
+            </div>
+            <div class="imagesholder">
+                <img src="./images/bild6.JPG" alt="">
+                <p class="captionText">Tricky galopperar i snön</p>
+            </div>
+            <div class="imagesholder">
+                <img src="./images/bild1.jpg" alt="">
+                <p class="captionText">Tävlar fin tävling</p>
+            </div>
+            <div class="imagesholder">
+                <img src="./images/bild11.jpeg" alt="">
+                <p class="captionText">Tricky på pallen</p>
+            </div>
+            <div class="imagesholder">
+                <img src="./images/bild10.jpg" alt="">
+                <p class="captionText">Visst kan jag lite dressyr</p>
+            </div>
+            <div class="imagesholder">
+                <img src="./images/bild9.JPG" alt="">
+                <p class="captionText">Lillen visar upp sig på åby</p>
+            </div>
+            <div class="imagesholder">
+                <img src="./images/bild8.JPG" alt="">
+                <p class="captionText">Sova och äta inga problem</p>
+            </div>
+            <div class="imagesholder">
+                <img src="./images/bild7.jpg" alt="">
+                <p class="captionText">Sento och jag, vilken bild</p>
+            </div>
+        </div>
+        
+        <div id="dotsContainer"></div>
+        
+    </div>
+    
+    
+    <script src="js/slid.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/app1.js"></script>
+    
+</body>
+</html>
